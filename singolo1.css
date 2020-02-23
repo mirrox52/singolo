@@ -86,4 +86,83 @@ main {
     cursor: pointer;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 494px;
+    border-bottom: 6px solid #ffffff;
+    background-color: #f2f2f2;
+    color: #666d89;
+}
 
+.image-files {
+    width: 60px;
+    height: 60px;
+}
+
+#Services{
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin-top: 59px;
+    margin-left: 4%;
+}
+
+#serviceDetales{
+    font-weight: 300;
+    margin-top: 19px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.firstLineElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.secondLineElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 34px;
+}
+
+.firstBlock {
+    display: flex;
+    flex: 30%;
+    margin-left: 4%;
+}
+
+.secondBlock {
+    display: flex;
+    flex: 30%;
+    margin-left: 2%;
+}
+
+.thirdBlock {
+    display: flex;
+    flex: 30%;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+
+.BlockOfFoot {
+    margin-left: 10px;
+}
+
+.Titlefoot {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.Titletext {
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 21px;
+}
